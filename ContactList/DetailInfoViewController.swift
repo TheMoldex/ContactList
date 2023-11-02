@@ -17,8 +17,8 @@ class DetailInfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        phoneNumber.text = "Phone " + person.phone
-        email.text = "Emal " + person.email
+        phoneNumber.text = "Phone: " + person.phone
+        email.text = "Email: " + person.email
         titleNC.title = person.fullName
     }
 }

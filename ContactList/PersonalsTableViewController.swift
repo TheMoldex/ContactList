@@ -10,7 +10,7 @@ import UIKit
 class PersonalsTableViewController: UITableViewController {
 
     var persons: [Person]!
-    
+   
     
     // MARK: - Navigation
 

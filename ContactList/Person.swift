@@ -13,6 +13,7 @@ struct Person {
     let surname: String
     let phone: String
     let email: String
+    
     var fullName: String {
         "\(name) \(surname)"
     }
@@ -30,6 +31,7 @@ struct Person {
                                  surname.count
                                  ,phone.count,
                                  email.count)
+        
         for index in 0..<iterationCount {
             let person = Person(
                 name: name[index],
